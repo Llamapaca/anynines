@@ -1,0 +1,23 @@
+name: anynines
+version: 0+dev.2
+commit_hash: 1e829dd
+uncommitted_changes: true
+jobs:
+- name: rubyweb
+  version: 845469901117b78c9799f4c37c73ee2a70912efeef1b947cbda28294e6cbd90a
+  fingerprint: 845469901117b78c9799f4c37c73ee2a70912efeef1b947cbda28294e6cbd90a
+  sha1: sha256:fba326edd8556dfd12e6c2ab5daffac6d4fb8e44f228dfc8011f1aa4fe4240f7
+  packages:
+  - ruby-2.7
+packages:
+- name: ruby-2.7
+  version: efa5b03ea4036a17c9b38e9bf36322ece6624879f8f64437bc8d1fc68ca87de3
+  fingerprint: efa5b03ea4036a17c9b38e9bf36322ece6624879f8f64437bc8d1fc68ca87de3
+  sha1: sha256:f78a028d7f79581e9b54d35270074345c65bff5bca932bf1ee09696d1ad63ef5
+  dependencies: []
+- name: rubyweb
+  version: fe3994dd7362a6d5574c3095e15fb2cf165074290a3b12c1ef46c756d33c525d
+  fingerprint: fe3994dd7362a6d5574c3095e15fb2cf165074290a3b12c1ef46c756d33c525d
+  sha1: sha256:251cf6baba329a5cdb422118b50f81ef619b92e14f4e39bb0200e09911709b91
+  dependencies:
+  - ruby-2.7

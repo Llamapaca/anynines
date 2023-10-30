@@ -7,4 +7,4 @@ group :development, :test do
   gem 'rspec-its'
 end
 
-gem "yaml", "~> 0.2.0"
+gem 'yaml', '~> 0.2.0'
